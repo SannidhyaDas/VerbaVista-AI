@@ -1,5 +1,5 @@
 import time
-
+import os
 from dotenv import load_dotenv
 import re
 import streamlit as st
@@ -216,4 +216,5 @@ def rag_answer(question, vectorstore):
 
 
     return response.content
+
 
