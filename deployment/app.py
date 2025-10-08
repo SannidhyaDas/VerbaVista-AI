@@ -28,7 +28,7 @@ from main import (
 
 # --- Sidebar (Inputs) ---
 with st.sidebar:
-    st.title("🎬 VidSynth AI")
+    st.title("🎬 VerbaVista AI")
     st.markdown("---")
     st.markdown("Transform any YouTube video into key topics, a podcast, or a chatbot.")
     st.markdown("### Input Details")
@@ -118,3 +118,4 @@ if task_option == "Chat with Video":
                 response = rag_answer(prompt, st.session_state.vector_store)
                 st.write(response)
             st.session_state.messages.append({'role': 'assistant', 'content': response})
+
