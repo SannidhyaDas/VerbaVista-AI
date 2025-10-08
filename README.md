@@ -75,18 +75,15 @@ Then open your browser at the link Streamlit provides (usually http://localhost:
 ## 🧩 How It Works — Behind the Scenes
 
 
-🔹 Step 1: Transcript Extraction
-- Extracts the video’s transcript (in any supported language) using the YouTubeTranscriptApi.
+🔹 **Step 1: Transcript Extraction** - Extracts the video’s transcript (in any supported language) using the YouTubeTranscriptApi.
 
-🔹 Step 2: Translation (Optional)
-- If the video is not in English, Gemini translates the transcript with cultural and linguistic precision.
+🔹 **Step 2: Translation (Optional)** - If the video is not in English, Gemini translates the transcript with cultural and linguistic precision.
 
-🔹 Step 3: Processing Options
+🔹 **Step 3: Processing Options**
 - Notes Mode → Extracts key topics and generates structured, concise notes.
 - Chat Mode → Creates embeddings, stores them in Chroma DB, and launches a Retrieval-Augmented Generation (RAG) chatbot.
 
-🔹 Step 4: RAG-based Question Answering
-- When chatting, user queries are matched against the video transcript via embeddings → Gemini answers using only retrieved context.
+🔹 **Step 4: RAG-based Question Answering** - When chatting, user queries are matched against the video transcript via embeddings → Gemini answers using only retrieved context.
 
 ---
 
