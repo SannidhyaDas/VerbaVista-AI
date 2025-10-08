@@ -33,10 +33,12 @@ def extract_video_id(url):
 
 # function to get transcript from the video.
 def get_transcript(video_id, language):
+    proxy_username = os.getenv("PROXY_USERNAME")
+    proxy_password = os.getenv("PROXY_PASSWORD")
     ytt_api= YouTubeTranscriptApi(
         proxy_config=WebshareProxyConfig(
-            proxy_username="cfamatcp",
-            proxy_password="fxbb26tnny7e"
+            proxy_username=proxy_username,
+            proxy_password=proxy_password
         )
     )
     try:
@@ -214,3 +216,4 @@ def rag_answer(question, vectorstore):
 
 
     return response.content
+
