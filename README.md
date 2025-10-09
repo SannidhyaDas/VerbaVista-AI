@@ -1,6 +1,8 @@
 # 🎬 VerbaVista-AI ( [ 🌐Live Demo ](https://sannidhya-das-verbavista-ai.streamlit.app/) )
  YouTube Content Synthesizer using Gemini + LangChain + Streamlit
+![VideoChat eg](https://github.com/SannidhyaDas/VerbaVista-AI/blob/main/assets/appInterface_1.png)
 
+![VideoNotes eg](https://github.com/SannidhyaDas/VerbaVista-AI/blob/main/assets/appInterface_2.png)
 > 🚀 Transform any YouTube video into **structured notes** or **an interactive chatbot** powered by Google Gemini and LangChain.
 
 ---
