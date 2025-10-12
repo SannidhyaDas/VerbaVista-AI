@@ -98,7 +98,7 @@ VerbaVista-AI/
 ├── assets/                        # Streamlit web interface
 │   ├── appInterface_1.png            # Chat with Video example 
 │   ├── appInterface_2.png            # Notes from the video example 
-│   └──                           # working pipeline
+│   └── VerbaVista-pipeline           # working pipeline
 │
 ├── deployment/             # Streamlit deployment setup
 │   ├── requirements.txt            # Python dependencies
