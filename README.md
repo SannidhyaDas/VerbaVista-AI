@@ -76,7 +76,7 @@ Then open your browser at the link Streamlit provides (usually http://localhost:
 
 ## 🧩 How It Works — Behind the Scenes
 
-
+![pipeline](https://github.com/SannidhyaDas/VerbaVista-AI/blob/main/assets/VerbaVista-pipeline.png)
 
 🔹 **Step 1: Transcript Extraction** - Extracts the video’s transcript (in any supported language) using the YouTubeTranscriptApi.
 
